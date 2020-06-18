@@ -1,0 +1,102 @@
+
+body {
+    background-image: url("../images/background.jpg");   
+}
+/* .hero{
+    background-image: url("../assets/images/background.jpg");
+    width: 100%;
+    height: auto;
+    background-size: cover;
+
+} */
+
+/* Navbar */
+.navbar
+{
+    padding: 0rem 6rem;
+}
+.navbar-brand
+{ 
+    font-size: 2.1rem;
+    padding: 15px;
+    background-color:lightseagreen; 
+}
+.navbar-nav
+{
+    /* flex-direction: row;    */
+    justify-content: space-evenly;
+    /* flex-wrap: nowrap;   */
+}
+.navbar-nav li{
+    padding-right: 20px;
+}
+
+.nav-item{  
+    padding-right: 15px;
+    padding-left: 15px; 
+}
+
+.nav-link
+{
+    /* font-size: 1.1rem !important; */
+    /* border-left: 1px solid rgba(0, 0, 0, 0.3); */
+    padding: 15px;
+}
+
+
+/* Main page Card */
+.card-title{
+    color: lightseagreen;
+}
+.line{
+    color: #b4b4b4;
+    border-width: 3px;
+}
+
+/* Footer */
+.footer {
+    border-top:thick solid;
+    border-top-color:lightseagreen;
+    background-color: dimgray;
+    color:#b4b4b4;
+   
+  }
+  
+.footer > .container {
+    width: auto;
+    max-width: 680px;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    color:#b4b4b4;
+  }
+
+/* Media Queries */
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap */
+
+/* 
+Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+  
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+/* No media query since the extra-large breakpoint has no upper bound on its width */
