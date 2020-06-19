@@ -2,14 +2,6 @@
 body {
     background-image: url("../images/background.jpg");   
 }
-/* .hero{
-    background-image: url("../assets/images/background.jpg");
-    width: 100%;
-    height: auto;
-    background-size: cover;
-
-} */
-
 /* Navbar */
 .navbar
 {
@@ -17,18 +9,13 @@ body {
 }
 .navbar-brand
 { 
-    font-size: 2.1rem;
-    padding: 15px;
+    /* font-size: 2.1rem; */
+    /* padding: 15px; */
     background-color:lightseagreen; 
 }
 .navbar-nav
 {
-    /* flex-direction: row;    */
     justify-content: space-evenly;
-    /* flex-wrap: nowrap;   */
-}
-.navbar-nav li{
-    padding-right: 20px;
 }
 
 .nav-item{  
@@ -38,13 +25,12 @@ body {
 
 .nav-link
 {
-    /* font-size: 1.1rem !important; */
-    /* border-left: 1px solid rgba(0, 0, 0, 0.3); */
     padding: 15px;
 }
 
 
 /* Main page Card */
+
 .card-title{
     color: lightseagreen;
 }
@@ -52,6 +38,14 @@ body {
     color: #b4b4b4;
     border-width: 3px;
 }
+
+/* Portfolio row padding  */
+.cardpadding
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 
 /* Footer */
 .footer {
@@ -64,7 +58,6 @@ body {
   
 .footer > .container {
     width: auto;
-    max-width: 680px;
     text-align: center;
     padding-right: 15px;
     padding-left: 15px;
@@ -79,23 +72,27 @@ No media query since this is the default in Bootstrap */
 /* 
 Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-
+    .navbar-brand{
+        font-size: 1rem;
+    }
 }
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
-  
+    .navbar-brand{
+        font-size: 1rem;
+    }
 }
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) { 
-    
+   
 
 }
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) { 
-
+  
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
