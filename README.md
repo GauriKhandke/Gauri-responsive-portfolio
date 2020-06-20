@@ -15,11 +15,10 @@ Responsive Web Design :
 
 * `<meta name="viewport" content="width=device-width, initial-scale=1">`: 
 * `box-sizing: border-box;` : 
-* 
-
 
 * Validating a Web Page: 
 Validating a web page is a process of ensuring that it conforms to the norms or standards defined by the World Wide Web Consortium (W3C) which is the authority to maintain HTML standards.
+
 * HTML VAlidation Service : https://validator.w3.org/ : test or validate your HTML code against the formal guidelines and standards set by the Wide Web Consortium (W3C) for HTML/XHTML web pages.
 The World Wide Web Consortium provide a simple online tool (https://validator.w3.org/) that automatically check your HTML code and point out any problems/errors your code might have, such as missing closing tags or missing quotes around attributes.
 

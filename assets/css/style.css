@@ -2,6 +2,7 @@
 body {
     background-image: url("../images/background.jpg"); 
     margin-bottom: 80px;  
+    font-family: 'Lora', serif; /* Google Font */
 }
 
 
