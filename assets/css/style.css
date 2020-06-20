@@ -3,23 +3,22 @@ body {
     background-image: url("../images/background.jpg"); 
     margin-bottom: 80px;  
 }
+
+
 /* Navbar */
 .navbar
 {
     padding: 0rem 6rem;
     
 }
-/* .navbar > .container{
-    line-height: 25px;
-    /* margin-left: 0px;
-    margin-right: 0px; 
-} */
+
 .navbar-brand
 { 
     padding: 10px;
     background-color:lightseagreen; 
     margin-right: 0px;
 }
+
 .navbar-nav
 {
     justify-content: space-evenly;
@@ -41,6 +40,7 @@ body {
 .card-title{
     color: lightseagreen;
 }
+
 .line{
     color: #b4b4b4;
     border-width: 3px;
