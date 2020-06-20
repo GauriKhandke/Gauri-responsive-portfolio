@@ -7,18 +7,18 @@ body {
 .navbar
 {
     padding: 0rem 6rem;
-    /* padding-left: 0 px;
-    padding-right: 0px; */
+    
 }
-.navbar > .container{
-    margin-left: 0px;
-    margin-right: 0px;
-}
+/* .navbar > .container{
+    line-height: 25px;
+    /* margin-left: 0px;
+    margin-right: 0px; 
+} */
 .navbar-brand
 { 
-    /* font-size: 2.1rem; */
-    /* padding: 15px; */
+    padding: 10px;
     background-color:lightseagreen; 
+    margin-right: 0px;
 }
 .navbar-nav
 {
@@ -79,31 +79,46 @@ No media query since this is the default in Bootstrap */
 /* 
 Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    .navbar > .container{
+        margin-left: 0px;
+        margin-right:0px;
+    }
     .navbar{
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .navbar-brand{
-        font-size: 1rem;
+        font-size: 0.5rem;
     }
 }
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
     .navbar-brand{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 }
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) { 
-   
+    .navbar-brand{
+        font-size: 1.5rem;
+    }
 
 }
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) { 
-  
+    .navbar-brand{
+        font-size: 1.5rem;
+    }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .navbar-brand{
+        font-size: 2rem;
+    }
+
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
