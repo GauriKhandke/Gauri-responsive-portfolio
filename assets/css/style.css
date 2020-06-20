@@ -1,6 +1,7 @@
 
 body {
-    background-image: url("../images/background.jpg");   
+    background-image: url("../images/background.jpg"); 
+    margin-bottom: 80px;  
 }
 /* Navbar */
 .navbar
