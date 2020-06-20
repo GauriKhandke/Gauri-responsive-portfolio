@@ -37,6 +37,9 @@ body {
 
 
 /* Main page Card */
+.card{
+    margin-top: 20px;
+}
 
 .card-title{
     color: lightseagreen;
