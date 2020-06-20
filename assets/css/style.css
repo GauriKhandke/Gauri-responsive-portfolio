@@ -7,6 +7,12 @@ body {
 .navbar
 {
     padding: 0rem 6rem;
+    /* padding-left: 0 px;
+    padding-right: 0px; */
+}
+.navbar > .container{
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .navbar-brand
 { 
@@ -73,6 +79,10 @@ No media query since this is the default in Bootstrap */
 /* 
 Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    .navbar{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     .navbar-brand{
         font-size: 1rem;
     }
