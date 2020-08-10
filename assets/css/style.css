@@ -56,15 +56,12 @@ body {
     padding-bottom: 15px;
 }
 
-
-
 /* Footer */
 .footer {
     border-top:thick solid;
     border-top-color:lightseagreen;
     background-color: dimgray;
     color:#b4b4b4;
-   
   }
   
 .footer > .container {
@@ -72,7 +69,7 @@ body {
     text-align: center;
     padding-right: 15px;
     padding-left: 15px;
-    color:#b4b4b4;
+    color:#7a7d7b;
   }
 
 /* Media Queries */
