@@ -9,7 +9,7 @@ body {
 /* Navbar */
 .navbar
 {
-    padding: 0rem 6rem;   
+    padding: 0rem 6rem;  
 }
 
 .navbar-brand
@@ -27,6 +27,7 @@ body {
 .nav-item{  
     padding-right: 15px;
     padding-left: 15px; 
+    font-weight: bold;
 }
 
 .nav-link
