@@ -103,10 +103,106 @@
 
                                 <hr class="line">
 
-                                <!-- Begin row 1 in column 1 -->
                                 <div class="row">
 
                                     <!-- row 1 column 1 -->
+                                    <div class="col-sm-6 col-md-6 col-lg-6 cardpadding">
+                                        <!-- trigger modal -->
+                                        <div class="card shadow" data-toggle="modal" data-target="#jobfinder">
+                                            <img src="assets/images/JobFinder.png" alt="Job Finder"
+                                                class="img-thumbnail rounded float-left img-fluid d-flex">
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title" style="margin-bottom: 0px;">Job Finder</h4>
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="jobfinder" tabindex="-1"
+                                            aria-labelledby="jobfinderLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h4 class="modal-title card-title" id="jobfinderLabel">
+                                                            Job Finder</h4>
+                                                        <button type="button" class="close" data-dismiss="modal"
+                                                            aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+
+                                                        <h5 style="font-weight: bold;" class="card-title">Project
+                                                            Description : </h5>
+                                                        <ul>
+                                                            <li>This is a Full Stack Job Finder application, where the user
+                                                                can first login or sign up (if a user does not have an
+                                                                account).</li>
+                                                            <li>After login, User can search jobs by role, technologies,
+                                                                location or comapny. Also user can get all jobs, post a
+                                                                new job and view the jobs that are posted by logged in
+                                                                user.</li>
+                                                        </ul>
+
+                                                        <img src="assets/images/JobFinder.gif" alt="JobFinderDemo"
+                                                            class="img-thumbnail rounded float-left img-fluid d-flex"
+                                                            style="margin-bottom: 15px;">
+
+                                                        <h5 style="font-weight: bold;" class="card-title">Technologies
+                                                            Used : </h5>
+                                                        <ul>
+                                                            <li>MySQL</li>
+                                                            <li>Sequelize</li>
+                                                            <li>Express.js</li>
+                                                            <li>Node.js</li>
+                                                            <li>Handlebars.js</li>
+                                                            <li>Passport</li>
+                                                            <li>Passport-local</li>
+                                                            <li>bcryptjs</li>
+                                                            <li>express-session</li>
+                                                            <li>Javascript</li>
+                                                            <li>CSS</li>
+                                                        </ul>
+
+                                                        <h5 style="font-weight: bold;" class="card-title">Tools Used :
+                                                        </h5>
+                                                        <ul>
+                                                            <li>ES Lint</li>
+                                                            <li>Travis CI</li>
+                                                        </ul>
+
+                                                        <h5 style="font-weight: bold;" class="card-title">Features :
+                                                        </h5>
+                                                        <ul>
+                                                            <li>User can sign up with firstname, lastmane, email and
+                                                                password if user is first time visitor.</li>
+                                                            <li>After logging in with email and password, user can
+                                                                search for the job ,also apply for a job by clicking on
+                                                                the contact.</li>
+                                                            <li>User can post a new Job and can also view the jobs
+                                                                he/she posted.</li>
+                                                            <li>User can also get list of all jobs available by clicking
+                                                                on 'All Jobs'.</li>
+                                                        </ul>
+
+
+                                                    </div>
+                                                    <div class="modal-footer justify-content-center">
+                                                        <a href="https://uw-jobfinder.herokuapp.com/"
+                                                            class="btn btn-dark rounded-circle tooltip-test github"
+                                                            style="font-size:20px;color:white;margin-right:10px;"
+                                                            title="Deployed Website" target="_blank"><i
+                                                                class="fab fa-chrome"></i></a>
+                                                        <a href="https://github.com/GauriKhandke/JobFinder"
+                                                            class="btn btn-dark rounded-circle tooltip-test github"
+                                                            style="font-size:20px;color:white;" title="Github Repo"
+                                                            target="_blank"><i class="fab fa-github"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- row 1 column 2 -->
                                     <div class="col-sm-6 col-md-6 col-lg-6 cardpadding">
                                         <!-- trigger modal -->
                                         <div class="card shadow" data-toggle="modal" data-target="#newsletter">
@@ -131,6 +227,8 @@
                                                         </button>
                                                     </div>
                                                     <div class="modal-body">
+                                                        <h5 style="font-weight: bold;" class="card-title">Project Description :
+                                                        </h5>
                                                         <p>All-in-one news application to retrieve top stories in
                                                             different categories within country, fact check news
                                                             articles and
@@ -141,7 +239,8 @@
                                                             class="img-thumbnail rounded float-left img-fluid d-flex"
                                                             style="margin-bottom: 15px;">
 
-                                                        <h5 style="font-weight: bold;" class="card-title">API's Used : </h5>
+                                                        <h5 style="font-weight: bold;" class="card-title">API's Used :
+                                                        </h5>
                                                         <ul>
                                                             <li>NewsCatcher API</li>
                                                             <li>Hoaxy API</li>
@@ -149,13 +248,26 @@
                                                             <li>Geolocation API</li>
                                                         </ul>
 
-                                                        <h5 style="font-weight: bold;" class="card-title">Technologies Used : </h5>
+                                                        <h5 style="font-weight: bold;" class="card-title">Technologies
+                                                            Used : </h5>
                                                         <ul>
                                                             <li>Semantic UI</li>
                                                             <li>JQuery</li>
                                                             <li>Javascript</li>
                                                             <li>HTML</li>
                                                             <li>CSS</li>
+                                                        </ul>
+
+                                                        <h5 style="font-weight: bold;" class="card-title">Features : </h5>
+                                                        <ul>
+                                                            <li>User can get latest news articles in different categories such as business, entertainment, politics, finance within a country.</li>
+                                                            <li>User can search news articles for specific topic.</li>
+                                                            <li>User can get 'Fact Check' news articles.</li>
+                                                            <li>User can find current weather data of user's location.</li>
+                                                            <li>Used IP Geolocation API to get user's location and obtained current weather data from user's location.</li>
+                                                            <li>Used AJAX to hook into the API to retrieve data in JSON format.</li>
+                                                            <li>App runs in the browser and features dynamically updated HTML and CSS powered by jQuery.</li>
+                                                            <li>Responsive User Interface.</li>
                                                         </ul>
                                                     </div>
                                                     <div class="modal-footer justify-content-center">
@@ -166,16 +278,188 @@
                                                                 class="fab fa-chrome"></i></a>
                                                         <a href="https://github.com/GauriKhandke/newsletter"
                                                             class="btn btn-dark rounded-circle tooltip-test github"
-                                                            style="font-size:20px;color:white;"
-                                                            title="Github Repo" target="_blank"><i
-                                                                class="fab fa-github"></i></a>
+                                                            style="font-size:20px;color:white;" title="Github Repo"
+                                                            target="_blank"><i class="fab fa-github"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <!-- row 1 column 2 -->
+                                </div>
+
+                                <!-- Begin row 2 -->
+                                <div class="row">
+
+                                    <!-- row 2 column 1 -->
+                                    <div class="col-sm-6 col-md-6 col-lg-6 cardpadding">
+
+                                        <!-- trigger modal -->
+                                        <div class="card shadow" data-toggle="modal" data-target="#burgerlogger">
+                                            <img src="assets/images/Burger-Logger.png" alt="Burger"
+                                                class="img-thumbnail rounded float-left img-fluid d-flex">
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title" style="margin-bottom: 0px;">Burger Logger</h4>
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="burgerlogger" tabindex="-1"
+                                            aria-labelledby="burgerloggerLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h4 class="modal-title card-title" id="burgerloggerLabel">
+                                                            Burger Logger</h4>
+                                                        <button type="button" class="close" data-dismiss="modal"
+                                                            aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <h5 style="font-weight: bold;" class="card-title">Project Description : </h5>
+                                                        <p>Eat-Da-Burger restaurant app created with MySQL, Node.js, Express.js,
+                                                            Handlebars.js and ORM.</p>
+
+                                                        <img src="assets/images/Burger-Logger.png" alt="Burger-Logger"
+                                                            class="img-thumbnail rounded float-left img-fluid d-flex"
+                                                            style="margin-bottom: 15px;">
+
+                                                        <h5 style="font-weight: bold;" class="card-title">Technologies
+                                                            Used : </h5>
+                                                        <ul>
+                                                            <li><b>MySQL</b> : MySQL is an open-source relational
+                                                                database management system.</li>
+                                                            <li><b>Express.js</b> : Express is a minimal and flexible
+                                                                Node.js web application framework that provides a robust
+                                                                set of features for web and mobile applications.</li>
+                                                            <li><b>Node.js</b> : Node.js is an open-source and
+                                                                cross-platform JavaScript runtime environment.</li>
+                                                            <li><b>Handlebars.js</b> : Handlebars compiles templates
+                                                                into JavaScript functions. This makes the template
+                                                                execution faster than most other template engines.</li>
+                                                            <li><b>CSS</b></li>
+                                                        </ul>
+
+                                                        <h5 style="font-weight: bold;" class="card-title">Usage: </h5>
+                                                        <ul>
+                                                            <li>'Eat-Da-Burger!' is a restaurant app that lets users
+                                                                input the names of burgers they'd like to eat.</li>
+                                                            <li>Whenever a user submits a burger's name, app will
+                                                                display the burger on the left side of the page --
+                                                                waiting to be devoured.</li>
+                                                            <li>Each burger in the waiting area also has a 'Devour it!'
+                                                                button. When the user clicks it, the burger will move to
+                                                                the right side of the page as 'Devoured'.</li>
+                                                            <li>App will store every burger in a database, whether
+                                                                devoured or not.</li>
+                                                        </ul>
+
+                                                    </div>
+                                                    <div class="modal-footer justify-content-center">
+                                                        <a href="https://eat-da-burger-restaurant.herokuapp.com/"
+                                                            class="btn btn-dark rounded-circle tooltip-test github"
+                                                            style="font-size:20px;color:white;margin-right:10px;"
+                                                            title="Deployed Website" target="_blank"><i
+                                                                class="fab fa-chrome"></i></a>
+                                                        <a href="https://github.com/GauriKhandke/Burger-Logger"
+                                                            class="btn btn-dark rounded-circle tooltip-test github"
+                                                            style="font-size:20px;color:white;" title="Github Repo"
+                                                            target="_blank"><i class="fab fa-github"></i></a>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- row 2 column 2 -->
+                                    <div class="col-sm-6 col-md-6 col-md-6 cardpadding">
+                                        <!-- trigger modal -->
+                                        <div class="card shadow" data-toggle="modal" data-target="#notetaker">
+                                            <img src="assets/images/NoteTaker.png" alt="Weather Dashboard"
+                                                class="img-thumbnail rounded float-left img-fluid d-flex">
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title" style="margin-bottom: 0px;">Note Taker
+                                                </h4>
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="notetaker" tabindex="-1"
+                                            aria-labelledby="noteTakerLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h4 class="modal-title card-title" id="noteTakerLabel">
+                                                            Note Taker</h4>
+                                                        <button type="button" class="close" data-dismiss="modal"
+                                                            aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <h5 style="font-weight: bold;" class="card-title">Project Description :
+                                                        </h5>
+
+                                                        <ul>
+                                                            <li>Create an application that can be used to write, save and delete notes.</li>
+                                                            <li>This application will use an express backend and save and retrieve note data from a JSON file.</li>
+                                                        </ul>
+                                                        <img src="assets/images/NoteTaker.gif"
+                                                            alt="NoteTakerDemo"
+                                                            class="img-thumbnail rounded float-left img-fluid d-flex"
+                                                            style="margin-bottom: 15px;">
+
+                                                        <h5 style="font-weight: bold;" class="card-title">User Story :
+                                                        </h5>
+                                                        <ul>
+                                                            <li>AS A user, I want to be able to write and save notes.</li>
+                                                            <li>I WANT to be able to delete notes I've written before.</li>
+                                                            <li>SO THAT I can organize my thoughts and keep track of tasks I need to complete</li>
+                                                        </ul>
+
+                                                        <h5 style="font-weight: bold;" class="card-title">Technologies
+                                                            Used : </h5>
+                                                        <ul>
+                                                            <li>Express.js</li>
+                                                            <li>Node.js</li>
+                                                            <li>uuid</li>
+                                                            <li>Javascript</li>
+                                                            <li>HTML</li>
+                                                            <li>CSS</li>
+                                                        </ul>
+
+                                                        <h5 style="font-weight: bold;" class="card-title">Features : </h5>
+                                                        <ul>
+                                                            <li>Used 'Express.js' to build server</li>
+                                                            <li>Used 'fs(File System)' module to read and write from 'db.json' file.</li>
+                                                            <li>Used uuid npm package to give unique id to each note</li>
+                                                            <li>Application is deployed on heroku.</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="modal-footer justify-content-center">
+                                                        <a href="https://gaurikhandke.github.io/Gauri-weather-dashboard/"
+                                                            class="btn btn-dark rounded-circle tooltip-test github"
+                                                            style="font-size:20px;color:white;margin-right:10px;"
+                                                            title="Deployed Website" target="_blank"><i
+                                                                class="fab fa-chrome"></i></a>
+                                                        <a href="https://github.com/GauriKhandke/Gauri-weather-dashboard"
+                                                            class="btn btn-dark rounded-circle tooltip-test github"
+                                                            style="font-size:20px;color:white;" title="Github Repo"
+                                                            target="_blank"><i class="fab fa-github"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <!-- Begin row 3 -->
+                                <div class="row">
+
+                                    <!-- row 3 column 1 -->
                                     <div class="col-sm-6 col-md-6 col-md-6 cardpadding">
                                         <!-- trigger modal -->
                                         <div class="card shadow" data-toggle="modal" data-target="#weather-dashboard">
@@ -208,18 +492,34 @@
                                                             class="img-thumbnail rounded float-left img-fluid d-flex"
                                                             style="margin-bottom: 15px;">
 
-                                                        <h5 style="font-weight: bold;" class="card-title">API's Used : </h5>
+                                                        <h5 style="font-weight: bold;" class="card-title">API's Used :
+                                                        </h5>
                                                         <ul>
                                                             <li>OpenWeatherMap API</li>
+                                                            <li>Current Weather Data</li>
+                                                            <li>5 day / 3 hour Forecast</li>
+                                                            <li>UV Index</li>
                                                         </ul>
 
-                                                        <h5 style="font-weight: bold;" class="card-title">Technologies Used : </h5>
+                                                        <h5 style="font-weight: bold;" class="card-title">Technologies
+                                                            Used : </h5>
                                                         <ul>
                                                             <li>Bootstrap</li>
                                                             <li>JQuery</li>
                                                             <li>Javascript</li>
                                                             <li>HTML</li>
                                                             <li>CSS</li>
+                                                        </ul>
+
+                                                        <h5 style="font-weight: bold;" class="card-title">Features : </h5>
+                                                        <ul>
+                                                            <li>User can search for weather reports by city using the openweathermap API.</li>
+                                                            <li>Used AJAX to hook into the API to retrieve data in JSON format./li>
+                                                            <li>App runs in the browser and features dynamically updated HTML and CSS powered by jQuery.</li>
+                                                            <li>Included a search history so that users can access their past search terms. Used `localStorage` to store search history.</li>
+                                                            <li>Clicking on the search history city name performs a new search that returns current and future conditions for that city.</li>
+                                                            <li>Included a 5-Day Forecast below the current weather conditions for that city.</li>
+                                                            <li>Application loads last searched city forecast on page load.</li>
                                                         </ul>
                                                     </div>
                                                     <div class="modal-footer justify-content-center">
@@ -230,7 +530,73 @@
                                                                 class="fab fa-chrome"></i></a>
                                                         <a href="https://github.com/GauriKhandke/Gauri-weather-dashboard"
                                                             class="btn btn-dark rounded-circle tooltip-test github"
-                                                            style="font-size:20px;color:white;"
+                                                            style="font-size:20px;color:white;" title="Github Repo"
+                                                            target="_blank"><i class="fab fa-github"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- row 3 column 2 -->
+                                    <div class="col-sm-6 col-md-6 col-md-6 cardpadding">
+                                        <!-- trigger modal -->
+                                        <div class="card shadow" data-toggle="modal" data-target="#codequiz">
+                                            <img src="assets/images/codequiz.png" alt="Code Quiz"
+                                                class="img-thumbnail rounded float-left img-fluid d-flex">
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title" style="margin-bottom: 0px;">Code Quiz</h4>
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="codequiz" tabindex="-1"
+                                            aria-labelledby="codequizLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h4 class="modal-title card-title" id="codequizLabel">
+                                                            Code Quiz</h4>
+                                                        <button type="button" class="close" data-dismiss="modal"
+                                                            aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <p>Code quiz with multiple choice questions.</p>
+                                                        <img src="assets/images/CodeQuiz.gif" alt="Code Quiz Demo"
+                                                            class="img-thumbnail rounded float-left img-fluid d-flex"
+                                                            style="margin-bottom: 15px;">
+
+                                                        <h5 style="font-weight: bold;" class="card-title">Technologies
+                                                            Used : </h5>
+                                                        <ul>
+                                                            <li>Bootstrap</li>
+                                                            <li>Javascript</li>
+                                                            <li>Browser LocalStorage</li>
+                                                            <li>HTML</li>
+                                                            <li>CSS</li>
+                                                        </ul>
+
+                                                        <h5 style="font-weight: bold;" class="card-title">Features : </h5>
+                                                        <ul>
+                                                            <li>Responsive Web Design</li>
+                                                            <li>HTML DOM is used to create html elements dynamically.</li>
+                                                            <li>Event listeners are used for events such as 'click'.</li>
+                                                            <li>Users scores are stored on client side storage such as 'localStorage' of web browser.</li>
+                                                            <li>Timer starts when quiz starts. Timer stops when quiz is completed or when timer reaches zero and final score is shown.</li>
+                                                        </ul>
+
+                                                    </div>
+                                                    <div class="modal-footer justify-content-center">
+                                                        <a href="https://gaurikhandke.github.io/Gauri-code-quiz/"
+                                                            class="btn btn-dark rounded-circle tooltip-test github"
+                                                            style="font-size:20px;color:white;margin-right:10px;"
+                                                            title="Deployed Website" target="_blank"><i
+                                                                class="fab fa-chrome"></i></a>
+                                                        <a href="https://github.com/GauriKhandke/Gauri-code-quiz"
+                                                            class="btn btn-dark rounded-circle tooltip-test github"
+                                                            style="font-size:20px;color:white;margin-right:10px;"
                                                             title="Github Repo" target="_blank"><i
                                                                 class="fab fa-github"></i></a>
                                                     </div>
@@ -241,10 +607,10 @@
 
                                 </div>
 
-                                <!-- Begin row 2 in column 1 -->
+                                <!-- Begin row 4-->
                                 <div class="row">
 
-                                    <!-- row 2 column 1 -->
+                                    <!-- row 4 column 1 -->
                                     <div class="col-sm-6 col-md-6 col-lg-6 cardpadding">
 
                                         <!-- trigger modal -->
@@ -276,7 +642,8 @@
                                                             class="img-thumbnail rounded float-left img-fluid d-flex"
                                                             style="margin-bottom: 15px;">
 
-                                                        <h5 style="font-weight: bold;" class="card-title">Technologies Used : </h5>
+                                                        <h5 style="font-weight: bold;" class="card-title">Technologies
+                                                            Used : </h5>
                                                         <ul>
                                                             <li>Bootstrap</li>
                                                             <li>Moment.js</li>
@@ -284,6 +651,16 @@
                                                             <li>Javascript</li>
                                                             <li>HTML</li>
                                                             <li>CSS</li>
+                                                        </ul>
+
+
+                                                        <h5 style="font-weight: bold;" class="card-title">Features : </h5>
+                                                        <ul>
+                                                            <li>Current day is displyed at the top of the calender.</li>
+                                                            <li>The application displays timeblocks for standard business hours (9 a.m. to 5 p.m.), user can save events at perticular hour.</li>
+                                                            <li>Each timeblock contains an input field and save button.</li>
+                                                            <li>Clicking a timeblock's "Save" button stores the input text in `localStorage`, allowing the text to persist when the application is refreshed.</li>
+                                                            <li>Each hour is color coded to reflect whether the time slot is in the past, present or future. This changes depending on the time of the day.</li>
                                                         </ul>
                                                     </div>
                                                     <div class="modal-footer justify-content-center">
@@ -294,139 +671,8 @@
                                                                 class="fab fa-chrome"></i></a>
                                                         <a href="https://github.com/GauriKhandke/Gauri-day-planner"
                                                             class="btn btn-dark rounded-circle tooltip-test github"
-                                                            style="font-size:20px;color:white;"
-                                                            title="Github Repo" target="_blank"><i
-                                                                class="fab fa-github"></i></a>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- row 2 column 2 -->
-                                    <div class="col-sm-6 col-md-6 col-md-6 cardpadding">
-                                        <!-- trigger modal -->
-                                        <div class="card shadow" data-toggle="modal" data-target="#codequiz">
-                                            <img src="assets/images/codequiz.png" alt="Code Quiz"
-                                                class="img-thumbnail rounded float-left img-fluid d-flex">
-                                            <div class="card-body text-center">
-                                                <h4 class="card-title" style="margin-bottom: 0px;">Code Quiz</h4>
-                                            </div>
-                                        </div>
-
-                                        <!-- Modal -->
-                                        <div class="modal fade" id="codequiz" tabindex="-1"
-                                            aria-labelledby="codequizLabel" aria-hidden="true">
-                                            <div class="modal-dialog">
-                                                <div class="modal-content">
-                                                    <div class="modal-header">
-                                                        <h4 class="modal-title card-title" id="codequizLabel">
-                                                            Code Quiz</h4>
-                                                        <button type="button" class="close" data-dismiss="modal"
-                                                            aria-label="Close">
-                                                            <span aria-hidden="true">&times;</span>
-                                                        </button>
-                                                    </div>
-                                                    <div class="modal-body">
-                                                        <p>Code quiz with multiple choice questions.</p>
-                                                        <img src="assets/images/CodeQuiz.gif" alt="Code Quiz Demo"
-                                                            class="img-thumbnail rounded float-left img-fluid d-flex"
-                                                            style="margin-bottom: 15px;">
-
-                                                        <h5 style="font-weight: bold;" class="card-title">Technologies Used : </h5>
-                                                        <ul>
-                                                            <li>Bootstrap</li>
-                                                            <li>Javascript</li>
-                                                            <li>Browser LocalStorage</li>
-                                                            <li>HTML</li>
-                                                            <li>CSS</li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="modal-footer justify-content-center">
-                                                        <a href="https://gaurikhandke.github.io/Gauri-code-quiz/"
-                                                            class="btn btn-dark rounded-circle tooltip-test github"
-                                                            style="font-size:20px;color:white;margin-right:10px;"
-                                                            title="Deployed Website" target="_blank"><i
-                                                                class="fab fa-chrome"></i></a>
-                                                        <a href="https://github.com/GauriKhandke/Gauri-code-quiz"
-                                                            class="btn btn-dark rounded-circle tooltip-test github"
-                                                            style="font-size:20px;color:white;margin-right:10px;"
-                                                            title="Github Repo" target="_blank"><i
-                                                                class="fab fa-github"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <!-- Begin row 3 in column 1 -->
-                                <div class="row">
-
-                                    <!-- row 3 column 1 -->
-                                    <div class="col-sm-6 col-md-6 col-lg-6 cardpadding">
-
-                                        <!-- trigger modal -->
-                                        <div class="card shadow" data-toggle="modal" data-target="#burgerlogger">
-                                            <img src="assets/images/Burger-Logger.png" alt="Burger"
-                                                class="img-thumbnail rounded float-left img-fluid d-flex">
-                                            <div class="card-body text-center">
-                                                <h4 class="card-title" style="margin-bottom: 0px;">Burger Logger</h4>
-                                            </div>
-                                        </div>
-
-                                        <!-- Modal -->
-                                        <div class="modal fade" id="burgerlogger" tabindex="-1"
-                                            aria-labelledby="burgerloggerLabel" aria-hidden="true">
-                                            <div class="modal-dialog">
-                                                <div class="modal-content">
-                                                    <div class="modal-header">
-                                                        <h4 class="modal-title card-title" id="burgerloggerLabel">
-                                                            Burger Logger</h4>
-                                                        <button type="button" class="close" data-dismiss="modal"
-                                                            aria-label="Close">
-                                                            <span aria-hidden="true">&times;</span>
-                                                        </button>
-                                                    </div>
-                                                    <div class="modal-body">
-                                                        <p>Eat-Da-Burger restaurant app with MySQL, Node, Express, Handlebars and ORM.</p>
-
-                                                        <img src="assets/images/Burger-Logger.png"
-                                                            alt="Burger-Logger"
-                                                            class="img-thumbnail rounded float-left img-fluid d-flex"
-                                                            style="margin-bottom: 15px;">
-
-                                                        <h5 style="font-weight: bold;" class="card-title">Technologies Used : </h5>
-                                                        <ul>
-                                                            <li><b>MySQL</b> : MySQL is an open-source relational database management system.</li>
-                                                            <li><b>Express.js</b> : Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.</li>
-                                                            <li><b>Node.js</b> : Node.js is an open-source and cross-platform JavaScript runtime environment.</li>
-                                                            <li><b>Handlebars.js</b> : Handlebars compiles templates into JavaScript functions. This makes the template execution faster than most other template engines.</li>
-                                                            <li><b>CSS</b></li>
-                                                        </ul>
-
-                                                        <h5 style="font-weight: bold;" class="card-title">Usage: </h5>
-                                                        <ul>
-                                                            <li>'Eat-Da-Burger!' is a restaurant app that lets users input the names of burgers they'd like to eat.</li>
-                                                            <li>Whenever a user submits a burger's name, app will display the burger on the left side of the page -- waiting to be devoured.</li>
-                                                            <li>Each burger in the waiting area also has a 'Devour it!' button. When the user clicks it, the burger will move to the right side of the page as 'Devoured'.</li>
-                                                            <li>App will store every burger in a database, whether devoured or not.</li>
-                                                        </ul>
-
-                                                    </div>
-                                                    <div class="modal-footer justify-content-center">
-                                                        <a href="https://eat-da-burger-restaurant.herokuapp.com/"
-                                                            class="btn btn-dark rounded-circle tooltip-test github"
-                                                            style="font-size:20px;color:white;margin-right:10px;"
-                                                            title="Deployed Website" target="_blank"><i
-                                                                class="fab fa-chrome"></i></a>
-                                                        <a href="https://github.com/GauriKhandke/Burger-Logger"
-                                                            class="btn btn-dark rounded-circle tooltip-test github"
-                                                            style="font-size:20px;color:white;"
-                                                            title="Github Repo" target="_blank"><i
-                                                                class="fab fa-github"></i></a>
+                                                            style="font-size:20px;color:white;" title="Github Repo"
+                                                            target="_blank"><i class="fab fa-github"></i></a>
 
                                                     </div>
                                                 </div>
@@ -455,11 +701,13 @@
     <footer class="footer mt-auto py-3 fixed-bottom">
         <div class="container">
             <a href="https://github.com/GauriKhandke" class="btn btn-dark rounded-circle tooltip-test github"
-            title="Github" target="_blank" style="font-size:20px;color:white;margin-right:10px;"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/gaurikhandke/" class="btn btn-dark rounded-circle tooltip-test linkedin"
-            title="linkedin" target="_blank" style="font-size:20px;color:white;margin-right:10px"><i class="fab fa-linkedin"></i></a>
-        <a href="mailto: khandkegauri@gmail.com" class="btn btn-dark rounded-circle tooltip-test mail"
-            title="Email" target="_blank" style="font-size:20px;color:white;"><i class="fas fa-envelope"></i></a>
+                title="Github" target="_blank" style="font-size:20px;color:white;margin-right:10px;"><i
+                    class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/gaurikhandke/"
+                class="btn btn-dark rounded-circle tooltip-test linkedin" title="linkedin" target="_blank"
+                style="font-size:20px;color:white;margin-right:10px"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto: khandkegauri@gmail.com" class="btn btn-dark rounded-circle tooltip-test mail" title="Email"
+                target="_blank" style="font-size:20px;color:white;"><i class="fas fa-envelope"></i></a>
         </div>
     </footer>
 
