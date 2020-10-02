@@ -81,4 +81,4 @@ Create responsive images by adding an `.img-fluid` class to the `<img>` tag. The
 
 ## Deployed Website :
 
-* https://gaurikhandke.github.io/Gauri-responsive-portfolio/
+* https://gaurikhandke.github.io/responsive-portfolio/
