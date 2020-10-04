@@ -1,8 +1,6 @@
 # Responsive Portfolio
 
-## Goal : 
-
-* Create responsive portfolio using Bootstrap CSS framework.
+Responsive portfolio using Bootstrap CSS framework.
 
 ## Motivation :
 
@@ -14,39 +12,11 @@
 * As the user switches from their laptop to iPad, the website should automatically switch to accommodate for resolution, image size and scripting abilities. 
 * RWD is about using HTML and CSS to automatically resize, hide, shrink, or enlarge, a website, to make it look good on all devices (desktops, tablets, and phones).
 
-## Screenshots : 
-|Medium Devices/ Laptop|Small Devices/ Tablet|Extra Small Devices/Phone
-|--|--|--
-|![Laptop - About Me page](assets/images/Laptop-AboutMe.png)|![Tablet - About Me page](assets/images/AboutMe-ipadmini.png)|![Phone - About Me page](assets/images/AboutMe-iphone8.png) 
-
-
 ## Tech/ Framework used :
 
 ### Bootstrap : 
 
 * Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
-
-#### Steps to include bootstrap to your project: 
-1. Add Meta tag into your HTML page inside head tag:  
-```
-<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-```
-
-2. Add link to bootstrap CSS in head tag of your HTML page :
-```
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-```
-
-3. Add jQuery and popper.js files at the end of your HTML body.
-* jQuery: 
-```
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-```  
-* popper.js:
-```     
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-```
-4. Add components from bootstrap website in your project and customize it as per your requirement.
         
 ## Features :
 
@@ -77,7 +47,6 @@ Create responsive images by adding an `.img-fluid` class to the `<img>` tag. The
   * Semantic HTML or semantic markup is HTML that introduces meaning to the web page rather than just presentation.
   * Semantically correct HTML helps search engines, screen readers, and other user devices determine the significance and context of web content.
   * Semantic HTML tags are self descriptive.
-
 
 ## Deployed Website :
 
