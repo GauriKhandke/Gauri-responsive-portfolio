@@ -8,7 +8,6 @@ Responsive portfolio using Bootstrap CSS framework.
 
 * Responsive design ensures that web applications render well on a variety of devices and window or screen sizes.
 * It is the approach that suggests that design and development should respond to the user’s behavior and environment based on screen size, platform and orientation.
-* The practice consists of a mix of flexible grids and layouts, images and an intelligent use of CSS media queries.
 * As the user switches from their laptop to iPad, the website should automatically switch to accommodate for resolution, image size and scripting abilities. 
 * RWD is about using HTML and CSS to automatically resize, hide, shrink, or enlarge, a website, to make it look good on all devices (desktops, tablets, and phones).
 
@@ -50,4 +49,4 @@ Create responsive images by adding an `.img-fluid` class to the `<img>` tag. The
 
 ## Deployed Website :
 
-* https://gaurikhandke.github.io/Gauri-responsive-portfolio/
+* https://gaurikhandke.github.io/responsive-portfolio/
