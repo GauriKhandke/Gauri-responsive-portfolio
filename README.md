@@ -48,5 +48,5 @@ Create responsive images by adding an `.img-fluid` class to the `<img>` tag. The
   * Semantic HTML tags are self descriptive.
 
 ## Deployed Website :
-
 * https://gaurikhandke.github.io/responsive-portfolio/
+
