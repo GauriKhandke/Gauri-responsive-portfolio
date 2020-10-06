@@ -69,14 +69,8 @@ body {
     padding-bottom: 15px;
 }
 
-.linkedin:hover{
+.icon:hover{
     transform: scale(1.5);
-}
-.github:hover{
-   transform: scale(1.5);
-}
-.mail:hover{
-   transform: scale(1.5);
 }
 
 /* Footer */
