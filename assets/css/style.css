@@ -69,6 +69,11 @@ body {
     padding-bottom: 15px;
 }
 
+/* .project-card:hover{
+    transition-duration: 0.3s;
+    transform: scale(1.03);
+} */
+
 .icon:hover{
     transform: scale(1.5);
 }
